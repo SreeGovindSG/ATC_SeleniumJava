@@ -1,4 +1,3 @@
-//import static org.junit.jupiter.api.Assertions.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
@@ -75,7 +74,7 @@ import org.apache.commons.io.FileUtils;
 
 		//future ref
 		driver.findElement(By.xpath("//input[@id='alias']")).clear();
-		driver.findElement(By.xpath("//input[@id='alias']")).sendKeys("690, North Town, NewYork");
+		driver.findElement(By.xpath("//input[@id='alias']")).sendKeys("North Town, NewYork");
 
 		//Save button
 		driver.findElement(By.xpath("//button[@id='submitAddress']")).click();
